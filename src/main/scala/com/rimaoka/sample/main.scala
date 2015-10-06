@@ -36,7 +36,7 @@ object ActorDebuggerMain {
 
     val actor  = system.actorOf(Props[LoggingActor])
 
-    actor ! "Message from man()"
+    actor ! "Message from main()"
 
     Thread.sleep(500);
     system.shutdown()
