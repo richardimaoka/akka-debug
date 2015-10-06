@@ -1,3 +1,5 @@
+package com.rimaoka.sample
+
 import akka.actor.{Actor, ActorSystem, Props}
 
 /**
